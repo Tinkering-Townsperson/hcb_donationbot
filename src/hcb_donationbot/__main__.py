@@ -39,6 +39,10 @@ async def manually_check_donations(ctx, hcb_id: str = DEFAULT_ORG, hours: int = 
 	await check_donations(ctx, org_id=hcb_id, hours=hours)
 
 
-if __name__ == "__main__":
+def main():
 	print(f"hcb-donationbot v{__version__}")
 	bot.run(BOT_TOKEN)
+
+
+if __name__ == "__main__":
+	main()

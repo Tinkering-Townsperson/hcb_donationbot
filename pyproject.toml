@@ -18,6 +18,9 @@ pytest = "^8.3.4"
 twine = "^6.1.0"
 wheel = "^0.45.1"
 
+[tool.poetry.scripts]
+hcb_donationbot = "hcb_donationbot.__main__:main"
+
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
