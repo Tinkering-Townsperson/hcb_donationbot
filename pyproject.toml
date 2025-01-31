@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "hcb_donationbot"
+version = "1.0.0"
+description = "Discord bot that integrates with the HCB API to see donations to an org!"
+authors = ["AfterNoon PM <h2o.Drop2010+github@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+python-dotenv = "^1.0.1"
+discord-py = "^2.4.0"
+
+[tool.poetry.group.dev.dependencies]
+build = "^1.2.2.post1"
+flake8 = "^7.1.1"
+pytest = "^8.3.4"
+twine = "^6.1.0"
+wheel = "^0.45.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
